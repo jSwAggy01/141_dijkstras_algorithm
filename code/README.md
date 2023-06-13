@@ -36,31 +36,33 @@ Copy code
 The program prompts the user to input the graph information, such as the number of vertices, the adjacency list representation, and the edge weights. After the algorithm execution, the program displays the predecessor list, the distance list, and the adjacency list.
 
 ## Example Output
-Here's an example of the expected output:
 
-Initial Adjacency List:
-0 -> 1 2 3
-1 -> 0 4
-2 -> 0 4 5
-3 -> 0 4
-4 -> 1 2 3
-5 -> 2
+The program produces the following output:
 
-Shortest Path Tree Topology:
-  0 -> -1
-  1 -> 0
-  2 -> 0
-  3 -> 0
-  4 -> 1
-  5 -> 2
+- Initial Adjacency List:
+  - 0 -> 1 2 3
+  - 1 -> 0 4
+  - 2 -> 0 4 5
+  - 3 -> 0 4
+  - 4 -> 1 2 3
+  - 5 -> 2
 
-Shortest Paths:
-  0 -> 0
-  1 -> 3
-  2 -> 2
-  3 -> 2
-  4 -> 4
-  5 -> 4
+- Shortest Path Tree Topology:
+  - 0 -> -1
+  - 1 -> 0
+  - 2 -> 0
+  - 3 -> 0
+  - 4 -> 1
+  - 5 -> 2
+
+- Shortest Paths:
+  - 0 -> 0
+  - 1 -> 3
+  - 2 -> 2
+  - 3 -> 2
+  - 4 -> 4
+  - 5 -> 4
+
   
 This output is a short demo of the adjacency list representation of the graph, the shortest path tree topology (predecessor list), and the shortest paths (distance list) from the source vertex.
 
