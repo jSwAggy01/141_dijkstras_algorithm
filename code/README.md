@@ -38,8 +38,6 @@ The program prompts the user to input the graph information, such as the number 
 ## Example Output
 Here's an example of the expected output:
 
-rust
-Copy code
 Initial Adjacency List:
 0 -> 1 2 3
 1 -> 0 4
