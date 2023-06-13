@@ -47,21 +47,22 @@ Initial Adjacency List:
 5 -> 2
 
 Shortest Path Tree Topology:
-0 -> -1
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 1
-5 -> 2
+  0 -> -1
+  1 -> 0
+  2 -> 0
+  3 -> 0
+  4 -> 1
+  5 -> 2
 
 Shortest Paths:
-0 -> 0
-1 -> 3
-2 -> 2
-3 -> 2
-4 -> 4
-5 -> 4
-This output demonstrates the adjacency list representation of the graph, the shortest path tree topology (predecessor list), and the shortest paths (distance list) from the source vertex.
+  0 -> 0
+  1 -> 3
+  2 -> 2
+  3 -> 2
+  4 -> 4
+  5 -> 4
+  
+This output is a short demo of the adjacency list representation of the graph, the shortest path tree topology (predecessor list), and the shortest paths (distance list) from the source vertex.
 
 ## Conclusion
 Overall, it was fascinating to see Dijkstra’s algorithm being implemented using an adjacency list data structure and how the entire algorithm on paper and theory from lecture, worked in practice during the implementation.
